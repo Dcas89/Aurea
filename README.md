@@ -35,8 +35,8 @@ In essence, this mechanism dynamically integrates spatial proximity and feature 
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/afusion.git #TO FIX
-cd afusion #TO FIX
+git clone https://github.com/Dcas89/Aurea.git
+cd Aurea
 ```
 
 2. **Install Python dependencies**
@@ -52,10 +52,10 @@ First, initialize the Aurea model:
 ```python
 from entry import Aurea
 
-aurea = Aurea(model_dir='/path/to/model')
+aurea = Aurea(root_dir='/path/to/Aurea')
 ```
 
-> **Note:** When initializing the model, all required model checkpoints will be downloaded automatically if they don't exist in the specified model directory.
+> **Note:** When initializing the model, all required model checkpoints will be downloaded automatically.
 
 ### Image + Text Generation (Basic)
 
