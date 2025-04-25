@@ -321,6 +321,7 @@ This project is released under the Apache 2.0 License. See [LICENSE](LICENSE) fo
 - The CUDA spatial-range attention is inspired by and adapted from LLaVA-UHD.
 - Some components were adapted from [lucidrains](https://github.com/lucidrains) repositories, which provide excellent implementations of various transformer and attention mechanisms.
 - Thanks to the open-source community for DINOv2, SigLIP2, LLaVA, LlaVA-UHD, and Phi-4.
+- Thanks to Hugging Face for their [Transformers](https://github.com/huggingface/transformers) and [Accelerate](https://github.com/huggingface/accelerate) libraries.
 
 This project incorporates code and models from:
 
