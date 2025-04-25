@@ -117,8 +117,6 @@ print(response)
 Example using dynamic top-k sampling (interpolating from max_top_k to min_top_k over generation):
 
 ```python
-from generate import top_p
-
 response = aurea.generate(
     prompt="What does the logo say and what does it represent?", 
     image_path='./assets/mazure.png',
