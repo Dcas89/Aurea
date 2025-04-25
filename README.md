@@ -119,7 +119,7 @@ Example using dynamic top-k sampling (interpolating from max_top_k to min_top_k 
 ```python
 from generate import top_p
 
-text = aurea.generate(
+response = aurea.generate(
     prompt="What does the logo say and what does it represent?", 
     image_path='./assets/mazure.png',
     max_new_tokens=100,
@@ -133,7 +133,7 @@ text = aurea.generate(
     exclude_prompt=True
 )
 
-print(text)
+print(response)
 ```
 
 ### Text-Only Generation
