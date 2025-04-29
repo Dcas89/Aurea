@@ -1,6 +1,10 @@
-# Aurea: Adaptive Multimodal Fusion for Vision-Language Models
+<h1 align="center">Aurea: Adaptive Multimodal Fusion for Vision-Language Models</h1>
 
-Aurea is an open-source research project aimed at advancing vision-language model (VLM) pretraining by leveraging cutting-edge vision encoders—DINOv2 and SigLIP2. The core of Aurea is a novel adaptive **spatial-range attention mechanism** that intelligently fuses spatial and semantic information from encoder-derived visual features, enabling richer and more context-aware representations for various downstream tasks.
+<p align="center">
+  <img src="./assets/aurea_logo.png" alt="Aurea Logo" width="200" height="200">
+</p
+
+Aurea is an open-source research framework centered on an adaptive spatial-range attention module that fuses spatial and semantic cues from encoder features, yielding richer, context-aware representations for downstream tasks.
 
 ## Key Features
 
